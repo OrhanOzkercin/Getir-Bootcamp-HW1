@@ -1,0 +1,55 @@
+{
+  "name": "getir-nodejs-bootcamp-week-2-assignment-orhanozkercin",
+  "version": "1.0.0",
+  "description": "Getir Bootcamp Week 2 HW",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-OrhanOzkercin.git"
+  },
+  "author": "Orhan Özkerçin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-OrhanOzkercin/issues"
+  },
+  "homepage": "https://github.com/getir-nodejs-bootcamp/getir-nodejs-bootcamp-week-2-assignment-OrhanOzkercin#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "brace-style": [
+        "error",
+        "stroustrup"
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-unused-vars": [
+        "warn"
+      ],
+      "no-var": [
+        "off"
+      ],
+      "one-var": [
+        "off"
+      ]
+    }
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
